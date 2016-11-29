@@ -1,0 +1,12 @@
+<div>
+  <%= link_to "Add a new book", new_book_path, class: "btn btn-primary" %>
+</div>
+
+<% @books.each do |book| %>
+
+  <div>
+    <strong><%= book.title %></strong> – <%= book.author %>
+
+  </div>
+
+<% end %>
