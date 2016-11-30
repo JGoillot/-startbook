@@ -10,6 +10,28 @@
   justify-content: space-between;
 }
 
+.navbar-book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.n-arrow {
+  width: 75%;
+}
+
+.add-book {
+  margin-left: 22px;
+  a {
+    color: $gray-base;
+  }
+}
+
 /* Optional class to fix the navbar on top */
 .navbar-wagon-fixed {
   position: fixed;
@@ -21,7 +43,7 @@
 
 /* Navbar logo */
 .navbar-wagon-brand img {
-  width: 50px;
+  height: 35px;
 }
 
 /* Navbar right section (with form, links, button) */
@@ -128,4 +150,14 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+.notif {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background-color: #66D0E6;
+  border-radius: 50%;
+  top: -4px;
+  left: 31px;
 }
