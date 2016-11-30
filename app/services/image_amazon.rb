@@ -18,6 +18,7 @@ class ImageAmazon < ServiceBase
     html_file = open(url)
     html_doc = Nokogiri::HTML(html_file)
 
-    html_doc.text
+    puts "lol"
+    # html_doc.text
   end
 end
