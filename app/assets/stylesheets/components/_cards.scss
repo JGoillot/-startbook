@@ -1,0 +1,32 @@
+.cards {
+  background-color: #FFFFFF;
+  width: 430px;
+  height: 287px;
+  box-shadow: 0px 2px 4px rgba(0,0,0, 0.22);
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 46px;
+  margin-top: 46px;
+  .cover-book {
+    width: 136px;
+    height: 219px;
+    position: relative;
+    left: 26px;
+    top: -23px;
+    box-shadow: 0px 3px 10px rgba(0,0,0, 0.25);
+  }
+  .title {
+    font-size: 20px;
+    color: #3E4957;
+    position: relative;
+    top: -214px;
+    left: 192px;
+  }
+  .author {
+    font-size: 12px;
+    color: #3E4957;
+    position: relative;
+    left: 192px;
+    top: -215px;
+  }
+}

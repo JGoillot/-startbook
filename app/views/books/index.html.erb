@@ -1,12 +1,14 @@
-<div>
-  <%= link_to "Add a new book", new_book_path, class: "btn btn-primary" %>
-</div>
-
-<% @books.each do |book| %>
-
-  <div>
-    <strong><%= book.title %></strong> – <%= book.author %>
-
+<div class="home-page">
+  <% @books.each do |book| %>
+  <div class="cards">
+      <%= image_tag("https://images-na.ssl-images-amazon.com/images/I/41QsNUxcRjL._SX307_BO1,204,203,200_.jpg", class: "cover-book") %>
+      <h2 class="title">
+        <%= book.title %>
+      </h2>
+      <h6 class="author">
+        by <%= book.author %>
+      </h6>
   </div>
+  <% end %>
 
-<% end %>
+</div>
