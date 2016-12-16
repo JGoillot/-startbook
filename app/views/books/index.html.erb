@@ -1,7 +1,7 @@
 <div class="home-page">
   <% @books.each do |book| %>
   <div class="cards">
-      <%= image_tag("https://images-na.ssl-images-amazon.com/images/I/41QsNUxcRjL._SX307_BO1,204,203,200_.jpg", class: "cover-book") %>
+      <%= image_tag(book.picture, class: "cover-book") %>
       <h2 class="title">
         <%= book.title %>
       </h2>
