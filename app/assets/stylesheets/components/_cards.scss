@@ -1,3 +1,7 @@
+.topmargin {
+  height: 95px;
+}
+
 .cards {
   background-color: #FFFFFF;
   width: 430px;
@@ -6,7 +10,7 @@
   border-radius: 3px;
   display: inline-block;
   margin-right: 46px;
-  margin-top: 46px;
+  margin-top: -35px;
   .cover-book {
     width: 136px;
     height: 219px;
@@ -21,6 +25,11 @@
     position: relative;
     top: -214px;
     left: 192px;
+    width: 205px;
+    overflow: hidden;
+    text-overflow-ellipsis: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .author {
     font-size: 12px;
@@ -29,4 +38,37 @@
     left: 192px;
     top: -215px;
   }
+  .rating {
+    position: relative;
+    left: 192px;
+    top: -217px;
+    font-size: 14px;
+    display: flex;
+    .yellow {
+      color: #FB9537;
+    }
+    .rate {
+      font-size: 11px;
+      margin-left: 15px;
+    }
+  }
+  .desc {
+    font-size: 11px;
+    text-align: justify;
+    text-justify: inter-word;
+    position: relative;
+    top: -202px;
+    left: 192px;
+    width: 208px;
+    height: 80px;
+  }
+  .undrline {
+    height: 1px;
+    width: 403px;
+    background-color: rgba(151, 151, 151, 0.3);
+    position: relative;
+    left: 27px;
+    top: -169px;
+  }
 }
+

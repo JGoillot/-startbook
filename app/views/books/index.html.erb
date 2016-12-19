@@ -1,3 +1,4 @@
+<div class="topmargin"></div>
 <div class="home-page">
   <% @books.each do |book| %>
   <div class="cards">
@@ -8,6 +9,20 @@
       <h6 class="author">
         by <%= book.author %>
       </h6>
+      <div class="rating">
+        <i class="fa fa-star yellow" aria-hidden="true"></i>
+        <i class="fa fa-star yellow" aria-hidden="true"></i>
+        <i class="fa fa-star yellow" aria-hidden="true"></i>
+        <i class="fa fa-star yellow" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <div class="rate">20 votes</div>
+      </div>
+      <div class="desc">
+        From the author of the bestselling biographies of Benjamin Franklin and Albert Einstein, this is the exclusive, New York Times bestselling biography of Apple co-founder Steve Jobs.
+      </div>
+      <div class="undrline"></div>
+      <button class="btn btn-primary"> Découvrir</button>
+      <i class="fa fa-amazon" aria-hidden="true"></i>
   </div>
   <% end %>
 

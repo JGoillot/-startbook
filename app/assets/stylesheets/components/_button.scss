@@ -1,0 +1,45 @@
+.btn-primary {
+  position: relative;
+  left: 190px;
+  top: -158px;
+  background-color: white;
+  border-color: #9FA4AB;
+  color: #9FA4AB;
+  border-radius: 100px;
+  width: 136px;
+
+ &:hover {
+  background-color: white;
+  border-color: #61D0E5;
+  color: #61D0E5;
+ }
+
+ &:focus {
+  background-color: white;
+  border-color: #61D0E5;
+  color: #61D0E5;
+ }
+
+ &:active {
+  background-color: white;
+  border-color: #61D0E5;
+  color: #61D0E5;
+ }
+
+}
+
+.fa-amazon {
+  border-color: #9FA4AB;
+  border-radius: 50%;
+  border-style: solid;
+  padding: 7px;
+  border-width: 1px;
+  position: relative;
+  left: 216px;
+  top: -155px;
+  font-size: 20px;
+  &:hover {
+    border-color: #61D0E5;
+    color: #61D0E5;
+  }
+}
