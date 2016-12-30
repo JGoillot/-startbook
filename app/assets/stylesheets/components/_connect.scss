@@ -1,0 +1,26 @@
+.background-connect {
+  height: 250px;
+  background:
+    /* top, transparent red */
+    linear-gradient(
+      rgba(67, 137, 204, 0.90),
+      rgba(67, 137, 204, 0.90)
+    ),
+    /* bottom, image */
+    url("https://images.pexels.com/photos/6384/woman-hand-desk-office.jpg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.connect-modal {
+  position: relative;
+  top: -140px;
+  h2 {
+    color: white;
+  }
+  .connect-form {
+    width: 50%;
+    margin: auto;
+  }
+}
